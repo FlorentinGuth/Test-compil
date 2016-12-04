@@ -1,8 +1,11 @@
-# Object file
-*.o
+# Everything without .adb extension
+/*
+!/*.adb
+!/*/
+/*/**/*
+!/*/**/
+!/*/**/*.adb
 
-# Ada Library Information
-*.ali
 
 # Temporary files
 *~*
