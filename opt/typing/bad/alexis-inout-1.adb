@@ -10,5 +10,6 @@ procedure Horrible is
     end double;
     V : integer := 42;
   begin
-    double(V,V); -- Devrait émettre une erreur ici
+    double(V,V); -- Devrait émettre une erreur ici, selon gnatmake
+                 -- Pour éviter une ambiguite dans l'ordre possible d'opérations cachées dans des fonctions, ce qui ne doit en pratique pas arriver souvent.
   end horrible;

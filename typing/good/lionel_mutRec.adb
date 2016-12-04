@@ -4,5 +4,5 @@ with Ada.Text_IO; use Ada.Text_IO;
 procedure Test is
    type b;
    type a is record x:access b ; y: access a; end record;
-   type b is access a;
+   type b is record x:a; end record;
 begin new_line; end;
