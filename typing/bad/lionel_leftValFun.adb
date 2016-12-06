@@ -5,7 +5,7 @@ procedure Test is
    function f return r is
 	t:r;
 	begin return t; end;
-   y : integer := 0
+   y : integer := 0;
 begin
    f.x := y;
 end;
