@@ -1,10 +1,12 @@
-# Everything without .adb extension
+# Everything without .adb and .out extension
 /*
 !/*.adb
+!/*.out
 !/*/
 /*/**/*
 !/*/**/
 !/*/**/*.adb
+!/*/**/*.out
 
 
 # Temporary files
