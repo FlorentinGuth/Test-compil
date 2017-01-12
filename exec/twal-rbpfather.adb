@@ -1,4 +1,4 @@
-with Ada.Teat_IO; use Ada.Teat_IO;
+with Ada.Text_IO; use Ada.Text_IO;
 
 procedure Rbpfather is
     a : Character := 'A';
@@ -17,6 +17,7 @@ procedure Rbpfather is
         b : Character := 'B';
         procedure tata4 is begin
             Put(a); Put(b);
+            toto2;
         end;
         procedure tata3 is begin
             Put(a); Put(b);
@@ -30,6 +31,7 @@ procedure Rbpfather is
             c : Character := 'C';
             procedure tutu4 is begin
                 Put(a); Put(b); Put(c);
+                tata2;
             end;
             procedure tutu3 is begin
                 Put(a); Put(b); Put(c);
@@ -43,6 +45,7 @@ procedure Rbpfather is
                 d : Character := 'D';
                 procedure titi4 is begin
                     Put(a); Put(b); Put(c); Put(d);
+                    tutu2;
                 end;
                 procedure titi3 is begin
                     Put(a); Put(b); Put(c); Put(d);
